@@ -1,0 +1,336 @@
+body,div,center,img,input,from{
+    padding: 0px;
+    margin: 0px;
+    border: 0px;
+}
+
+body{
+    background-color: darkgray;
+}
+
+.div_headBorder{
+    /*
+    margin-left: 70px;
+    margin-right: 30px;
+    margin-top: 50px;
+    */
+    width: 130px;
+    height: 130px;
+    border-radius: 75px;
+    border:10px solid white;
+    overflow: hidden;
+    text-align: center;
+    margin-left: 25px;
+    margin-top: 50px;
+    margin-bottom: 90px;
+    /*
+    background-attachment: fixed;
+    background-image:url(pic.jpg);
+    */
+}
+
+
+.div_headBorder img{
+    border: 0px;
+    width: 130px;
+    height: 131px;
+}
+
+.div_navBorderOne,.div_navBorderTwo,.div_navBorderThree,.div_navBorderFour,.div_navBorderFive/*,.div_navBorderSix*/{
+    width: 350px;
+    height: 350px;
+    margin-top: 0px;
+    margin-left: 8px;
+    display: inline-block;
+}
+
+.div_navBorderOne,.div_navBorderFour{
+    width: 696px;
+}
+
+.div_navBorderOne{
+    background-color: #C9C547;          /*最后结果用图片去代替*/
+}
+
+.div_navBorderOne:hover{
+    background-image: url(Images/%E4%B8%AA%E4%BA%BA%E4%BF%A1%E6%81%AF3.png);
+}
+
+.div_navBorderTwo{
+    background-color:#FDC705;
+}
+
+.div_navBorderTwo:hover{
+    background-image: url(Images/%E9%A6%96%E9%A1%B5%E5%9D%97%E7%9B%B8%E5%86%8C.png);
+}
+
+.div_navBorderThree{
+    background-color:#F9AF1A;
+}
+
+.div_navBorderThree:hover{
+    background-image: url(Images/%E9%A6%96%E9%A1%B5%E5%9D%97%E8%AF%B4%E8%AF%B4.png);
+}
+
+.div_navBorderFour{
+    background-color:#F49529;
+}
+
+.div_navBorderFour:hover{
+    background-image: url(Images/%E9%A6%96%E9%A1%B5%E5%9D%97%E5%A8%B1%E4%B9%90.png);
+}
+
+.div_navBorderFive{
+    height: 724px;
+    width: 350px;
+    margin-left: 8px;
+    display: inline-block;
+    background-color:#EF7C39;
+}
+
+.div_navBorderFive:hover{
+    background-image: url(Images/%E9%A6%96%E9%A1%B5%E5%9D%97%E7%A4%BE%E4%BA%A4.png);
+}
+
+/*
+.div_navBorderSix{
+    background-color:#EB6242;
+}
+
+.div_navBorderSix:hover{
+    background-image: url(Images/%E4%B8%AA%E4%BA%BA%E4%BF%A1%E6%81%AF3.png);
+}
+*/
+
+.div_navAboutme{
+    margin: 0px;
+    /*
+    padding-top: 30px;
+    padding-left: 45px;
+    padding-right: 35px;
+    */
+    text-align: center;
+    height: 970px;
+    width: 210px;
+    background-color: black;
+    display: inline-block;
+    float: left;
+}
+
+.div_smallButton_1,.div_smallButton_2,.div_smallButton_3,.div_smallButton_4,.div_smallButton_5{
+    width: 210px;
+    height: 70px;
+    border: 0px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.div_smallButton_1{
+     background-image: url(Images/%E5%B0%8F%E6%8C%89%E9%92%AE%E4%B8%BB%E9%A1%B52.png);
+}
+.div_smallButton_1:hover{
+    background-image:url(Images/%E5%B0%8F%E6%8C%89%E9%92%AE%E4%B8%BB%E9%A1%B53.png);
+}
+
+.div_smallButton_2{
+    background-image: url(Images/%E5%B0%8F%E6%8C%89%E9%92%AE%E5%9B%BE%E7%89%871.png);
+}
+.div_smallButton_2:hover{
+    background-image: url(Images/%E5%B0%8F%E6%8C%89%E9%92%AE%E5%9B%BE%E7%89%872.png);
+}
+
+.div_smallButton_3{
+    background-image: url(Images/%E5%B0%8F%E6%8C%89%E9%92%AE%E7%A4%BE%E4%BA%A41.png);
+}
+.div_smallButton_3:hover{
+    background-image: url(Images/%E5%B0%8F%E6%8C%89%E9%92%AE%E7%A4%BE%E4%BA%A42.png);
+}
+
+.div_smallButton_4{
+    background-image: url(Images/%E5%B0%8F%E6%8C%89%E9%92%AE%E5%A8%B1%E4%B9%901.png);
+}
+.div_smallButton_4:hover{
+    background-image: url(Images/%E5%B0%8F%E6%8C%89%E9%92%AE%E5%A8%B1%E4%B9%902.png);
+}
+
+.div_smallButton_5{
+    background-image: url(Images/%E5%B0%8F%E6%8C%89%E9%92%AE%E8%AF%B4%E8%AF%B41.png);
+}
+.div_smallButton_5:hover{
+    background-image: url(Images/%E5%B0%8F%E6%8C%89%E9%92%AE%E8%AF%B4%E8%AF%B42.png);
+}
+
+.div_center_1,.div_center_2,.div_photoCenter_1,.div_photoCenter_2{
+    display: inline-block;
+    margin-left: 100px;
+    float: left;
+}
+
+.div_center_1{
+    margin-top: 120px;
+}
+
+.div_center_2{
+    margin-top: 20px;
+}
+
+.div_center_3{
+    display: inline-block;
+    margin-top: 120px;
+}
+
+.bigtitle {
+    font-size:72px;
+    font-family: "微软雅黑","黑体";
+    color:#444;
+    
+}
+
+.littletitle {
+    font-size:24px;
+    font-family: "微软雅黑","黑体";
+    color:#444;
+}
+
+.div_title_placer {
+    float: left;
+    margin-top: 50px;
+    margin-left: 300px;
+    margin-right: 300px;
+}
+
+.div_photoCenter_1{
+    margin-top: 20px;
+    margin-left: 300px;
+}
+
+.div_photoCenter_2{
+    margin-top: 30px;
+    margin-left: 300px;
+}
+
+.div_photoBorder{
+    border: 10px solid white;
+    width: 300px;
+    height: 300px;
+    overflow: hidden;
+    display: inline-block;
+    margin-right: 10px
+}
+
+.div_photoBorder img{
+    width: 300px;
+}
+
+,from_control{
+    margin-top: 20px;
+    margin-left: 300px;
+    margin-bottom: 50px;
+    float: left;
+}
+
+.from_controlText{
+    width: 850px;
+    height: 50px;
+    margin-top: 50px;
+    margin-left: 300px;
+    display: inline-block;
+}
+
+.from_controlButton{
+    width: 150px;
+    height: 50px;
+    margin-top: 50px;
+    display: inline-block;
+}
+
+.div_saySomething{
+    margin-top: 50px;
+    width: 1000px;
+    height: 500px;
+    background-color: white;
+    margin-left: 300px;
+    float: left;
+}
+
+.div_aboutme_main{
+    margin-top: 40px;
+    margin-left: 300px;
+    float: left;
+}
+
+.div_aboutme_headphotoBorder{
+    margin-top: 20px;
+    width: 240px;
+    height: 240px;
+    overflow: hidden;
+    float: left;
+}
+
+.div_aboutme_headphotoBorder img{
+    width:240px;
+    height: 240px;
+}
+
+.div_aboutme_messageBoder{
+    width:500px;
+    height: 360px;
+    margin-left: 50px;
+    float: left;
+}
+
+.div_aboutme_message{
+    width: 500px;
+    height: 50px;
+    margin-top: 10px;
+}
+
+.div_aboutme_message p{
+    font-size:24px;
+    font-family: "微软雅黑","黑体";
+    color:#444;
+}
+
+
+.div_funmain{
+    margin-top: 50px;
+    margin-left: 300px;
+    float: left;
+}
+
+.div_gameBorder{
+    border:10px solid white;
+    width:329px;
+    height: 219px;
+    margin-right: 20px;
+    overflow: hidden;
+    float: left;
+}
+
+.div_gameBorder img{
+    width: 329px;
+    height: 219px;
+}
+
+.div_gameBorder p{
+    font-size:24px;
+    font-family: "微软雅黑","黑体";
+    color:white;
+}
+
+#p_intercouse{
+    float: left;
+    margin-top: 20px;
+    margin-left: 300px;
+    font-size:32px;
+    font-family: "微软雅黑","黑体";
+    color:white;
+}
+
+#img_intercouse{
+    float: left;
+    width: 300px;
+    height: 300px;
+    margin-top:50px;
+    margin-left: 550px;
+}
